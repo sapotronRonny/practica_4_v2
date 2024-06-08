@@ -11,7 +11,7 @@ app.use('/api', routes_1.default);
 app.get('/', (req, res) => {
     res.send('¡Hola, Bienvenido al sistema!');
 });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3150;
 app.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto http://localhost:${PORT}`);
 });
