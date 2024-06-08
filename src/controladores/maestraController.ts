@@ -16,3 +16,4 @@ export const getAllTablas = async (resq: Request, res: Response) => {
     res.status(500).json({ message: 'Error al obtener datos del servicio externo XD' });
   }
 };
+
